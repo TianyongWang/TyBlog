@@ -1,0 +1,5 @@
+bootstrap-admin==0.3.7.1
+Django==1.11.6
+DjangoUeditor==1.8.143
+Markdown==2.6.9
+pytz==2017.2
