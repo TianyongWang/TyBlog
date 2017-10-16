@@ -1,4 +1,7 @@
 # Byte-compiled / optimized / DLL files
+#我的忽略
+.sqlite3
+
 __pycache__/
 *.py[cod]
 *$py.class
