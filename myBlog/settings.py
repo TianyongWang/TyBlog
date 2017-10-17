@@ -25,7 +25,7 @@ SECRET_KEY = 'tpfyn2xvt6+qe39l65*fh(_jcu*+w_onhgv4g$(r^)$i^-!i-5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.masazumiqi.ink','www.masazumiqi.ink']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.masazumiqi.ink']
 
 
 # Application definition
@@ -123,5 +123,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, 'static'),
 STATIC_URL = '/static/'
+# 加入下面的配置
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
